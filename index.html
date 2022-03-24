@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Algorithme</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+    <div class="section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="jumbotron">
+                        <h2>Somme des éléments</h2>
+                        <form>
+                            <div class="form-group">
+                              <label for="some_number">Entrez 10 nombres (séparés par des virgules)</label>
+                              <input type="text" class="form-control" id="some_number" aria-describedby="numberHelp">
+                              <small id="numberHelp" class="form-text">Entrez n'importe quels nombres, séparés par des virgules</small>
+                            </div>
+                            <button id="somme_petits" type="button" class="btn btn-primary">Somme des 9 plus petits</button>
+							<button id="somme_grands" type="button" class="btn btn-primary">Somme des 9 plus grands</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="somme-plus-petits.min.js"></script>
+    <script src="somme-plus-grands.min.js"></script>
+    <script src="main.min.js"></script>
+</body>
+</html>
